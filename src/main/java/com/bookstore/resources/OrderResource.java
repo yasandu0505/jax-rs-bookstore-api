@@ -1,12 +1,12 @@
 package com.bookstore.resources;
 
-import com.bookstore.model.CartItem;
-import com.bookstore.model.Customer;
-import com.bookstore.model.Order;
-import com.bookstore.model.Book; // Add this import
-import com.bookstore.storage.DataStore;
-import com.bookstore.exception.CustomerNotFoundException;
-import com.bookstore.exception.OutOfStockException;
+import com.bookstore.models.CartItem;
+import com.bookstore.models.Customer;
+import com.bookstore.models.Order;
+import com.bookstore.models.Book; // Add this import
+import com.bookstore.database.DataStore;
+import com.bookstore.exceptions.CustomerNotFoundException;
+import com.bookstore.exceptions.OutOfStockException;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -53,16 +53,16 @@ public class OrderResource {
         return order;
     }
 
-    @GET
-    public List<Order> getCustomerOrders(@PathParam("customerId") int customerId) {
-        List<Order> customerOrders = new ArrayList<>();
-        for (List<Order> order : DataStore.orders.values()) {
-            if (order.getCustomerId() == customerId) {
-                customerOrders.add((Order) order);
-            }
-        }
-        return customerOrders;
-    }
+//    @GET
+//    public List<Order> getCustomerOrders(@PathParam("customerId") int customerId) {
+//        List<Order> customerOrders = new ArrayList<>();
+//        for (List<Order> order : DataStore.orders.values()) {
+//            if (customerId == order.getCustomerId()) {
+//                customerOrders.add((Order) order);
+//            }
+//        }
+//        return customerOrders;
+//    }
 
     @GET
     @Path("/{orderId}")

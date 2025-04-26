@@ -1,9 +1,9 @@
 package com.bookstore.resources;
 
-import com.bookstore.model.Author;
-import com.bookstore.model.Book;
-import com.bookstore.storage.DataStore;
-import com.bookstore.exception.AuthorNotFoundException;
+import com.bookstore.models.Author;
+import com.bookstore.models.Book;
+import com.bookstore.database.DataStore;
+import com.bookstore.exceptions.AuthorNotFoundException;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

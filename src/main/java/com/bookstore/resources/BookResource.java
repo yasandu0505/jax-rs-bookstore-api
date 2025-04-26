@@ -1,7 +1,7 @@
 package com.bookstore.resources;
 
-import com.bookstore.model.Book;
-import com.bookstore.storage.DataStore;
+import com.bookstore.models.Book;
+import com.bookstore.database.DataStore;
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import java.util.*;
@@ -13,6 +13,7 @@ public class BookResource {
 
     @POST
     public Response addBook(Book book) {
+        System.out.println("GET /books called post");
         int id = DataStore.books.size() + 1;
         book.setId(id);
         DataStore.books.put(id, book);
@@ -21,6 +22,7 @@ public class BookResource {
 
     @GET
     public Response getAllBooks() {
+        System.out.println("GET /books called");
         Collection<Book> books = DataStore.books.values();
         return Response.ok(new ArrayList<>(books)).build();
     }
