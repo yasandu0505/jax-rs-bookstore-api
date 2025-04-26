@@ -1,34 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.bookstore.model;
 
-/**
- *
- * @author yasandu
- */
 import javax.xml.bind.annotation.XmlRootElement;
 
-
+@XmlRootElement
 public class Book {
     private int id;
     private String title;
-    private String author;
+    private Author author;  // Use Author object instead of just String
     private String isbn;
     private int publicationYear;
     private double price;
     private int stockQuantity;
-    
+
     public Book() {
     }
 
-    
     // All-args constructor
-    public Book(int id, String title, String author, String isbn, int publicationYear, double price, int stockQuantity) {
+    public Book(int id, String title, Author author, String isbn, int publicationYear, double price, int stockQuantity) {
         this.id = id;
         this.title = title;
-        this.author = author;
+        this.author = author;  // Set Author object
         this.isbn = isbn;
         this.publicationYear = publicationYear;
         this.price = price;
@@ -53,12 +44,16 @@ public class Book {
         this.title = title;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(Author author) {
         this.author = author;
+    }
+
+    public int getAuthorId() {
+        return author != null ? author.getId() : -1;  // Return author's ID, or -1 if author is null
     }
 
     public String getIsbn() {
@@ -99,12 +94,11 @@ public class Book {
         return "Book{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
-                ", author='" + author + '\'' +
+                ", author=" + (author != null ? author.getName() : "N/A") +
                 ", isbn='" + isbn + '\'' +
                 ", publicationYear=" + publicationYear +
                 ", price=" + price +
                 ", stockQuantity=" + stockQuantity +
                 '}';
     }
-    
 }

@@ -3,6 +3,7 @@ package com.bookstore.resources;
 import com.bookstore.model.CartItem;
 import com.bookstore.model.Customer;
 import com.bookstore.model.Order;
+import com.bookstore.model.Book; // Add this import
 import com.bookstore.storage.DataStore;
 import com.bookstore.exception.CustomerNotFoundException;
 import com.bookstore.exception.OutOfStockException;
@@ -31,7 +32,7 @@ public class OrderResource {
 
         double totalAmount = 0.0;
         for (CartItem item : cartItems) {
-            var book = DataStore.books.get(item.getBookId());
+            Book book = DataStore.books.get(item.getBookId());  // Change var to Book
             if (book == null) {
                 throw new WebApplicationException("Book with ID " + item.getBookId() + " not found", 404);
             }
