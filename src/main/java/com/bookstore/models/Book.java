@@ -1,4 +1,4 @@
-package com.bookstore.model;
+package com.bookstore.models;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

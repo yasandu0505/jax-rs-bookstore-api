@@ -1,0 +1,203 @@
+27-Apr-2025 01:55:04.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/yasandu/Library/Java/JavaVirtualMachines/corretto-21.0.5/Contents/Home
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-LTS
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 01:55:04.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/logging.properties
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2025 01:55:04.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Yasandus-MacBook-Pro.local
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 01:55:04.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/temp
+27-Apr-2025 01:55:04.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/yasandu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Apr-2025 01:55:04.990 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 01:55:05.015 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [401] milliseconds
+27-Apr-2025 01:55:05.052 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2025 01:55:05.052 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+27-Apr-2025 01:55:05.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/docs]
+27-Apr-2025 01:55:05.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/docs] has finished in [190] ms
+27-Apr-2025 01:55:05.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/manager]
+27-Apr-2025 01:55:05.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/manager] has finished in [23] ms
+27-Apr-2025 01:55:05.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/examples]
+27-Apr-2025 01:55:05.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/examples] has finished in [166] ms
+27-Apr-2025 01:55:05.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/ROOT]
+27-Apr-2025 01:55:05.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/ROOT] has finished in [11] ms
+27-Apr-2025 01:55:05.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/host-manager]
+27-Apr-2025 01:55:05.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/host-manager] has finished in [12] ms
+27-Apr-2025 01:55:05.461 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 01:55:05.468 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [452] milliseconds
+27-Apr-2025 02:00:00.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.12+8-LTS-286
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:00:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:00:00.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2025 02:00:00.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2025 02:00:00.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Apr-2025 02:00:00.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Apr-2025 02:00:00.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2025 02:00:00.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/logging.properties
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:00:00.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/temp
+27-Apr-2025 02:00:00.561 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/yasandu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Apr-2025 02:00:00.741 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 02:00:00.774 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+27-Apr-2025 02:00:00.775 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [394] milliseconds
+27-Apr-2025 02:00:00.799 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2025 02:00:00.799 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+27-Apr-2025 02:00:00.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/docs]
+27-Apr-2025 02:00:00.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/docs] has finished in [156] ms
+27-Apr-2025 02:00:00.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/manager]
+27-Apr-2025 02:00:00.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/manager] has finished in [19] ms
+27-Apr-2025 02:00:00.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/examples]
+27-Apr-2025 02:00:01.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/examples] has finished in [139] ms
+27-Apr-2025 02:00:01.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/ROOT]
+27-Apr-2025 02:00:01.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/ROOT] has finished in [11] ms
+27-Apr-2025 02:00:01.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/host-manager]
+27-Apr-2025 02:00:01.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/host-manager] has finished in [12] ms
+27-Apr-2025 02:00:01.144 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [368] milliseconds
+27-Apr-2025 02:00:01.147 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:829)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:777)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+27-Apr-2025 02:00:01.148 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 02:00:01.148 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Apr-2025 02:00:01.162 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 02:00:01.163 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 02:06:27.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.100
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 11:29:56 UTC
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.100.0
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/yasandu/Library/Java/JavaVirtualMachines/corretto-21.0.5/Contents/Home
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-LTS
+27-Apr-2025 02:06:27.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+27-Apr-2025 02:06:27.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:06:27.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/logging.properties
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Yasandus-MacBook-Pro.local
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100
+27-Apr-2025 02:06:27.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/temp
+27-Apr-2025 02:06:27.438 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/yasandu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Apr-2025 02:06:27.676 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 02:06:27.697 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [385] milliseconds
+27-Apr-2025 02:06:27.724 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2025 02:06:27.725 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.100]
+27-Apr-2025 02:06:27.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/docs]
+27-Apr-2025 02:06:27.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/docs] has finished in [199] ms
+27-Apr-2025 02:06:27.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/manager]
+27-Apr-2025 02:06:27.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/manager] has finished in [28] ms
+27-Apr-2025 02:06:27.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/examples]
+27-Apr-2025 02:06:28.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/examples] has finished in [171] ms
+27-Apr-2025 02:06:28.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/ROOT]
+27-Apr-2025 02:06:28.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/ROOT] has finished in [12] ms
+27-Apr-2025 02:06:28.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/host-manager]
+27-Apr-2025 02:06:28.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/webapps/host-manager] has finished in [15] ms
+27-Apr-2025 02:06:28.158 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Apr-2025 02:06:28.165 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [467] milliseconds
+27-Apr-2025 02:06:37.280 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml]
+27-Apr-2025 02:06:37.280 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/bookstore-api] in deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has been ignored
+27-Apr-2025 02:06:37.309 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2025 02:06:37.312 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has finished in [33] ms
+27-Apr-2025 02:06:37.316 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/bookstore-api]] after start() had already been called. The second call will be ignored.
+27-Apr-2025 02:23:42.368 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bookstore-api]
+27-Apr-2025 02:23:50.555 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml]
+27-Apr-2025 02:23:50.557 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/bookstore-api] in deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has been ignored
+27-Apr-2025 02:23:50.580 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2025 02:23:50.582 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has finished in [27] ms
+27-Apr-2025 02:23:50.585 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/bookstore-api]] after start() had already been called. The second call will be ignored.
+27-Apr-2025 02:26:56.981 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bookstore-api]
+27-Apr-2025 02:27:06.360 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml]
+27-Apr-2025 02:27:06.361 WARNING [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/bookstore-api] in deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has been ignored
+27-Apr-2025 02:27:06.385 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2025 02:27:06.386 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has finished in [26] ms
+27-Apr-2025 02:27:06.390 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/bookstore-api]] after start() had already been called. The second call will be ignored.
+27-Apr-2025 02:30:16.245 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bookstore-api]
+27-Apr-2025 02:30:25.252 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml]
+27-Apr-2025 02:30:25.253 WARNING [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/bookstore-api] in deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has been ignored
+27-Apr-2025 02:30:25.274 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2025 02:30:25.275 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/yasandu/NetBeansProjects/bookstore-api/apache-tomcat-9.0.100/conf/Catalina/localhost/bookstore-api.xml] has finished in [24] ms
+27-Apr-2025 02:30:25.280 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/bookstore-api]] after start() had already been called. The second call will be ignored.

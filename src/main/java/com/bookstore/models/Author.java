@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.bookstore.model;
+package com.bookstore.models;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

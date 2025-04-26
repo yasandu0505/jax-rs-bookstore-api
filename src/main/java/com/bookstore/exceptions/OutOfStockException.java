@@ -1,4 +1,4 @@
-package com.bookstore.exception;
+package com.bookstore.exceptions;
 
 public class OutOfStockException extends RuntimeException {
     public OutOfStockException(String message) {

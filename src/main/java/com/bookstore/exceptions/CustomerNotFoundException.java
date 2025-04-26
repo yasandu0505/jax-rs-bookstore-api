@@ -1,4 +1,4 @@
-package com.bookstore.exception;
+package com.bookstore.exceptions;
 
 public class CustomerNotFoundException extends RuntimeException {
     public CustomerNotFoundException(String message) {
