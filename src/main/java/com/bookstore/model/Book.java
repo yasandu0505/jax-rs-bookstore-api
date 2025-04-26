@@ -20,6 +20,9 @@ public class Book {
     private double price;
     private int stockQuantity;
     
+    public Book() {
+    }
+
     
     // All-args constructor
     public Book(int id, String title, String author, String isbn, int publicationYear, double price, int stockQuantity) {
