@@ -1,72 +1,77 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.bookstore.models;
 
-import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
-@XmlRootElement
 public class Order {
-
     private int id;
     private int customerId;
-    private List<CartItem> items = new ArrayList<>();
-    private double totalAmount;
-
+    private Date orderDate;
+    private List<OrderItem> items;
+    private double total;
+    
+    // Default constructor required for JAX-RS
     public Order() {
+        this.items = new ArrayList<>();
+        this.orderDate = new Date();
     }
-
-    public Order(int id, int customerId, List<CartItem> items, double totalAmount) {
+    
+    public Order(int id, int customerId) {
         this.id = id;
         this.customerId = customerId;
-        this.items = items;
-        this.totalAmount = totalAmount;
+        this.items = new ArrayList<>();
+        this.orderDate = new Date();
     }
-
+    
     // Getters and Setters
-
     public int getId() {
         return id;
     }
-
+    
     public void setId(int id) {
         this.id = id;
     }
-
+    
     public int getCustomerId() {
         return customerId;
     }
-
+    
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
-
-    public List<CartItem> getItems() {
+    
+    public Date getOrderDate() {
+        return orderDate;
+    }
+    
+    public void setOrderDate(Date orderDate) {
+        this.orderDate = orderDate;
+    }
+    
+    public List<OrderItem> getItems() {
         return items;
     }
-
-    public void setItems(List<CartItem> items) {
+    
+    public void setItems(List<OrderItem> items) {
         this.items = items;
+        calculateTotal();
     }
-
-    public double getTotalAmount() {
-        return totalAmount;
+    
+    public double getTotal() {
+        return total;
     }
-
-    public void setTotalAmount(double totalAmount) {
-        this.totalAmount = totalAmount;
+    
+    // Helper methods
+    public void addItem(OrderItem item) {
+        items.add(item);
+        calculateTotal();
     }
-
-    @Override
-    public String toString() {
-        return "Order{" +
-                "id=" + id +
-                ", customerId=" + customerId +
-                ", items=" + items +
-                ", totalAmount=" + totalAmount +
-                '}';
+    
+    private void calculateTotal() {
+        total = 0;
+        for (OrderItem item : items) {
+            total += item.getSubtotal();
+        }
     }
 }
