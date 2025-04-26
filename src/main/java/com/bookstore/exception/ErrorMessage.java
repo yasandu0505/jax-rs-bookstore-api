@@ -1,21 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.bookstore.exception;
 
-/**
- *
- * @author yasandu
- */
 public class ErrorMessage {
-    private String error;
+    private String errorMessage;
+    private int statusCode;
 
-    public ErrorMessage(String error) {
-        this.error = error;
+    public ErrorMessage() {
     }
 
-    public String getError() {
-        return error;
+    public ErrorMessage(String errorMessage, int statusCode) {
+        this.errorMessage = errorMessage;
+        this.statusCode = statusCode;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
+    }
+
+    public void setErrorMessage(String errorMessage) {
+        this.errorMessage = errorMessage;
+    }
+
+    public int getStatusCode() {
+        return statusCode;
+    }
+
+    public void setStatusCode(int statusCode) {
+        this.statusCode = statusCode;
     }
 }
