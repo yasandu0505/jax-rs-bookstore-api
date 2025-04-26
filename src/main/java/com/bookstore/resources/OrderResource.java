@@ -45,7 +45,7 @@ public class OrderResource {
 
         int orderId = DataStore.generateOrderId();
         Order order = new Order(orderId, customerId, new ArrayList<>(cartItems), totalAmount);
-        DataStore.orders.put(orderId, order);
+        DataStore.orders.put(orderId, (List<Order>) order);
 
         // Clear customer's cart after placing order
         customer.getCart().clear();
@@ -56,9 +56,9 @@ public class OrderResource {
     @GET
     public List<Order> getCustomerOrders(@PathParam("customerId") int customerId) {
         List<Order> customerOrders = new ArrayList<>();
-        for (Order order : DataStore.orders.values()) {
+        for (List<Order> order : DataStore.orders.values()) {
             if (order.getCustomerId() == customerId) {
-                customerOrders.add(order);
+                customerOrders.add((Order) order);
             }
         }
         return customerOrders;
@@ -67,7 +67,7 @@ public class OrderResource {
     @GET
     @Path("/{orderId}")
     public Order getOrderById(@PathParam("customerId") int customerId, @PathParam("orderId") int orderId) {
-        Order order = DataStore.orders.get(orderId);
+        Order order = (Order) DataStore.orders.get(orderId);
         if (order == null || order.getCustomerId() != customerId) {
             throw new WebApplicationException("Order not found for this customer", 404);
         }
