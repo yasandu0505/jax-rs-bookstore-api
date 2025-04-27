@@ -42,4 +42,15 @@ public class OrderResource {
         Order order = orderService.getOrderById(customerId, orderId);
         return Response.ok(order).build();
     }
+    
+    @DELETE
+    @Path("/{orderId}")
+    public Response deleteOrder(
+        @PathParam("customerId") int customerId,
+        @PathParam("orderId") int orderId) {
+    orderService.deleteOrder(customerId, orderId);
+    return Response.noContent().build();
+}
+    
+    
 }

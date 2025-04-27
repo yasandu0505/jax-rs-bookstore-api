@@ -97,4 +97,28 @@ public class OrderService {
         
         return order;
     }
+    
+    public void deleteOrder(int customerId, int orderId) {
+    // Check if customer exists
+    Customer customer = database.getCustomerById(customerId);
+    if (customer == null) {
+        throw new CustomerNotFoundException("Customer with ID " + customerId + " does not exist.");
+    }
+    
+    // Check if order exists
+    Order order = database.getOrderById(orderId);
+    if (order == null) {
+        throw new InvalidInputException("Order with ID " + orderId + " does not exist.");
+    }
+    
+    // Check if order belongs to customer
+    if (order.getCustomerId() != customerId) {
+        throw new InvalidInputException("Order with ID " + orderId + " does not belong to customer with ID " + customerId);
+    }
+    
+    // Delete the order
+    database.deleteOrder(orderId);
+}
+    
+    
 }

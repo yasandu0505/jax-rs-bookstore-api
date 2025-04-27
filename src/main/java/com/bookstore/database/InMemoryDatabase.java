@@ -191,4 +191,8 @@ public class InMemoryDatabase {
     public Order getOrderById(int orderId) {
         return orders.get(orderId);
     }
+    
+    public void deleteOrder(int orderId) {
+    orders.remove(orderId);
+}
 }
