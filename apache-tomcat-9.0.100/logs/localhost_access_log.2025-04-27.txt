@@ -703,3 +703,13 @@
 0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:41:27 +0530] "PUT /bookstore-api/api/customers/1/cart/items/3?quantity=5 HTTP/1.1" 404 69
 0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:41:31 +0530] "PUT /bookstore-api/api/customers/1/cart/items/1?quantity=5 HTTP/1.1" 200 52
 0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:41:45 +0530] "PUT /bookstore-api/api/customers/1/cart/items/3?quantity=5 HTTP/1.1" 404 69
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:54:18 +0530] "GET /bookstore-api/api/books HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "GET /bookstore-api/api/books HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "GET /bookstore-api/api/books/2 HTTP/1.1" 200 111
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "GET /bookstore-api/api/books/4 HTTP/1.1" 404 69
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "POST /bookstore-api/api/books HTTP/1.1" 201 112
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "POST /bookstore-api/api/books HTTP/1.1" 400 64
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "POST /bookstore-api/api/books HTTP/1.1" 400 79
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "PUT /bookstore-api/api/books/4 HTTP/1.1" 404 69
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "PUT /bookstore-api/api/books/9 HTTP/1.1" 404 69
+0:0:0:0:0:0:0:1 - - [27/Apr/2025:21:55:08 +0530] "DELETE /bookstore-api/api/books/4 HTTP/1.1" 404 69
